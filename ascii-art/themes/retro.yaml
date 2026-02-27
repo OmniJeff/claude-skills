@@ -1,0 +1,31 @@
+name: retro
+tone: >
+  Vintage computing aesthetic. Think green phosphor CRT monitors, dot-matrix printers,
+  BBS bulletin boards, early Unix terminals. Evokes the 1970s-80s era of computing.
+  Art should feel like it was printed on a teletype or displayed on a VT100.
+
+default_font: retro
+
+border_style:
+  horizontal: "="
+  vertical: "|"
+  corner: "+"
+  header_pattern: "+==[ %s ]==+"
+  divider_pattern: "================================================"
+  box_pattern: |
+    +============================+
+    |  %s
+    +============================+
+
+color_palette:
+  primary: "\033[32m"       # Green (classic terminal green)
+  secondary: "\033[2;32m"   # Dim green
+  highlight: "\033[1;32m"   # Bright green
+  reset: "\033[0m"
+
+art_preferences: >
+  Prefer blocky, low-resolution art. Use characters common on early terminals:
+  #, @, *, =, +, -, |. Avoid complex curves. Art should look like it could have
+  been displayed on an 80x24 terminal in 1983. Favor geometric patterns and
+  simple pictograms over detailed illustrations. Section dividers should use
+  repeated characters like === or ***.

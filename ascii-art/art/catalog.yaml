@@ -1,0 +1,132 @@
+dividers:
+  - name: simple-line
+    file: dividers/simple-line.txt
+    tags: [basic, clean, universal]
+    description: Simple dashed line divider
+
+  - name: double-line
+    file: dividers/double-line.txt
+    tags: [bold, strong, emphasis]
+    description: Double-line equals divider
+
+  - name: wave
+    file: dividers/wave.txt
+    tags: [decorative, flowing, soft]
+    description: Tilde wave pattern divider
+
+  - name: zigzag
+    file: dividers/zigzag.txt
+    tags: [decorative, angular, energetic]
+    description: Zigzag pattern divider
+
+  - name: dots
+    file: dividers/dots.txt
+    tags: [subtle, minimal, light]
+    description: Dotted line divider
+
+  - name: stars
+    file: dividers/stars.txt
+    tags: [decorative, festive, playful]
+    description: Star pattern divider
+
+  - name: hash-block
+    file: dividers/hash-block.txt
+    tags: [heavy, bold, retro]
+    description: Heavy hash block divider
+
+  - name: arrows
+    file: dividers/arrows.txt
+    tags: [directional, flow, technical]
+    description: Arrow pattern divider
+
+symbols:
+  - name: arrow-right
+    file: symbols/arrow-right.txt
+    tags: [direction, flow, navigation]
+    description: Right-pointing arrow
+
+  - name: arrow-left
+    file: symbols/arrow-left.txt
+    tags: [direction, flow, navigation]
+    description: Left-pointing arrow
+
+  - name: checkmark
+    file: symbols/checkmark.txt
+    tags: [success, done, complete]
+    description: Checkmark / tick symbol
+
+  - name: warning
+    file: symbols/warning.txt
+    tags: [alert, caution, danger]
+    description: Warning triangle with exclamation
+
+  - name: star
+    file: symbols/star.txt
+    tags: [favorite, highlight, important]
+    description: Five-pointed star
+
+  - name: skull
+    file: symbols/skull.txt
+    tags: [danger, death, hacker, edgy]
+    description: Skull and crossbones
+
+  - name: lightning
+    file: symbols/lightning.txt
+    tags: [power, energy, fast, electric]
+    description: Lightning bolt
+
+  - name: heart
+    file: symbols/heart.txt
+    tags: [love, favorite, health]
+    description: Heart shape
+
+  - name: gear
+    file: symbols/gear.txt
+    tags: [settings, config, mechanical]
+    description: Gear/cog symbol
+
+  - name: lock
+    file: symbols/lock.txt
+    tags: [security, auth, private]
+    description: Padlock symbol
+
+characters:
+  - name: cat
+    file: characters/cat.txt
+    tags: [animal, cute, internet, playful]
+    description: Sitting cat
+
+  - name: dog
+    file: characters/dog.txt
+    tags: [animal, friendly, loyal]
+    description: Happy dog
+
+  - name: robot
+    file: characters/robot.txt
+    tags: [tech, ai, mechanical, futuristic]
+    description: Friendly robot
+
+  - name: wizard
+    file: characters/wizard.txt
+    tags: [magic, fantasy, wise]
+    description: Wizard with hat and staff
+
+  - name: shrug
+    file: characters/shrug.txt
+    tags: [expression, confusion, humor]
+    description: Shrugging person
+
+  - name: crab
+    file: characters/crab.txt
+    tags: [animal, rust, claude, ocean]
+    description: Crab character
+
+  - name: ghost
+    file: characters/ghost.txt
+    tags: [spooky, halloween, pacman, fun]
+    description: Ghost character
+
+  - name: rocket
+    file: characters/rocket.txt
+    tags: [launch, deploy, startup, space]
+    description: Rocket ship

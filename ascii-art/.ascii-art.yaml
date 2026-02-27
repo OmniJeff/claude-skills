@@ -1,0 +1,8 @@
+# ASCII Art Skill - Project Configuration
+# Place this file in your project root as .ascii-art.yaml
+
+# Theme: retro | corporate | cyberpunk | l33t | minimal | playful
+theme: minimal
+
+# Default max width in columns (default: 80)
+# default_width: 80

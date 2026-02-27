@@ -1,0 +1,33 @@
+name: l33t
+tone: >
+  Hacker culture aesthetic. Underground, irreverent, technically skilled.
+  Think 90s-2000s hacker scene: phreaking, warez groups, IRC channels,
+  NFO files, demoscene. Art should feel like it belongs in a .nfo file
+  distributed with a cracked game or in the MOTD of an elite BBS.
+
+default_font: slim
+
+border_style:
+  horizontal: "-"
+  vertical: ":"
+  corner: "."
+  header_pattern: ".:[ %s ]:."
+  divider_pattern: ".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
+  box_pattern: |
+    .--------------------------------------.
+    :  %s
+    `--------------------------------------'
+
+color_palette:
+  primary: "\033[31m"       # Red
+  secondary: "\033[33m"     # Yellow/gold
+  highlight: "\033[1;31m"   # Bright red
+  reset: "\033[0m"
+
+art_preferences: >
+  Intricate and detailed. NFO-file style art with elaborate borders and
+  decorative flourishes using periods, colons, backticks, dashes. Text may
+  use l33tspeak substitutions in decorative contexts (3 for E, 0 for O, etc)
+  but keep actual code comments readable. Art should feel like it was crafted
+  by someone who spent hours in a text editor perfecting every character.
+  Favor detailed pictograms and elaborate signature-style banners.

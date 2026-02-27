@@ -1,0 +1,31 @@
+name: minimal
+tone: >
+  Clean, modern, understated. Think Scandinavian design, Swiss typography,
+  Zen gardens. Less is more. Art should breathe — generous whitespace,
+  simple geometry, no clutter. The elegance is in what's left out.
+
+default_font: mini
+
+border_style:
+  horizontal: "-"
+  vertical: "|"
+  corner: "+"
+  header_pattern: "-- %s --"
+  divider_pattern: "- - - - - - - - - - - - - - - - - - - - - - - -"
+  box_pattern: |
+    +------------------------------+
+    |  %s
+    +------------------------------+
+
+color_palette:
+  primary: "\033[37m"       # White/light gray
+  secondary: "\033[2;37m"   # Dim gray
+  highlight: "\033[1;37m"   # Bright white
+  reset: "\033[0m"
+
+art_preferences: >
+  Restrained and purposeful. Use the minimum number of characters to convey
+  the shape. Prefer thin lines and open space over dense fill. Icons should
+  be small and geometric — outlines rather than filled shapes. Banners should
+  use a compact font. Dividers should be subtle — dashed lines or sparse dots.
+  Never use more art than the situation demands. When in doubt, use less.

@@ -1,0 +1,33 @@
+name: cyberpunk
+tone: >
+  Futuristic dystopian aesthetic. Neon-lit cityscapes, neural interfaces,
+  digital rain, glitch artifacts. Think Blade Runner, Neuromancer, Ghost
+  in the Shell. Art should feel like it was rendered by a rogue AI on a
+  cracked terminal in a rain-soaked alley in Neo-Tokyo, 2077.
+
+default_font: bold
+
+border_style:
+  horizontal: "="
+  vertical: "!"
+  corner: "#"
+  header_pattern: "#==>[ %s ]<=="
+  divider_pattern: "!!==============================================!!"
+  box_pattern: |
+    #==================================#
+    !!  %s
+    #==================================#
+
+color_palette:
+  primary: "\033[35m"       # Magenta/purple
+  secondary: "\033[36m"     # Cyan
+  highlight: "\033[1;35m"   # Bright magenta
+  reset: "\033[0m"
+
+art_preferences: >
+  Aggressive, angular, and high-contrast. Use sharp characters: !, #, /, \, <, >, =.
+  Art should feel like digital graffiti or corrupted data. Banners can be dramatic
+  and oversized. Icons should be edgy — skulls, lightning, circuits, eyes, crosshairs.
+  Dividers should feel like data stream boundaries or firewall markers. Glitch effects
+  are welcome: occasional misaligned characters or broken patterns suggest a system
+  under strain.

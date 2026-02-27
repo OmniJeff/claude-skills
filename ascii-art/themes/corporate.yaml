@@ -1,0 +1,32 @@
+name: corporate
+tone: >
+  1980s business computing aesthetic. Clean, conservative, professional.
+  Think IBM mainframes, Lotus 1-2-3, early Microsoft Office. Blue-chip
+  corporate energy. Art should be appropriate for enterprise codebases
+  and boardroom presentations printed on a LaserJet.
+
+default_font: bold
+
+border_style:
+  horizontal: "-"
+  vertical: "|"
+  corner: "+"
+  header_pattern: "+--[ %s ]--+"
+  divider_pattern: "------------------------------------------------"
+  box_pattern: |
+    +----------------------------+
+    |  %s
+    +----------------------------+
+
+color_palette:
+  primary: "\033[34m"       # Blue
+  secondary: "\033[37m"     # White/light gray
+  highlight: "\033[1;34m"   # Bright blue
+  reset: "\033[0m"
+
+art_preferences: >
+  Keep it clean and understated. Use simple line-drawing characters: +, -, |.
+  Avoid playful or edgy symbols. Banners should be legible and professional.
+  Icons should be simple and universally recognizable. No skulls, no flames,
+  no hacker aesthetics. Think: would this look appropriate in a Fortune 500
+  codebase? Section dividers should be clean horizontal rules.

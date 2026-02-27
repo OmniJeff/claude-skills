@@ -1,0 +1,32 @@
+name: playful
+tone: >
+  Fun, casual, and expressive. Think Saturday morning cartoons, indie game
+  studios, creative side projects. Art should make people smile when they
+  open the file. Personality and humor are encouraged. The code is serious
+  but the decoration doesn't have to be.
+
+default_font: bold
+
+border_style:
+  horizontal: "~"
+  vertical: "|"
+  corner: "*"
+  header_pattern: "*~~( %s )~~*"
+  divider_pattern: "~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~"
+  box_pattern: |
+    *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+    |  %s
+    *~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+color_palette:
+  primary: "\033[33m"       # Yellow
+  secondary: "\033[36m"     # Cyan
+  highlight: "\033[1;33m"   # Bright yellow
+  reset: "\033[0m"
+
+art_preferences: >
+  Expressive and character-filled. Use friendly, rounded shapes where possible.
+  Animals and cartoon characters are great. Banners should be big and bold.
+  Dividers can be whimsical — waves, stars, zigzags. Icons should have personality:
+  a happy robot, a waving cat, a dancing skeleton. Humor in art comments is
+  welcome. The goal is to inject joy into the development experience.
