@@ -9,6 +9,7 @@ A Claude Code skill that generates ASCII art for software projects — text bann
 git clone https://github.com/OmniJeff/claude-skills
 
 # Symlink the skill into your Claude Code skills directory
+mkdir -p ~/.claude/skills
 ln -s /path/to/claude-skills/ascii-art ~/.claude/skills/ascii-art
 ```
 

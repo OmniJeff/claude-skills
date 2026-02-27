@@ -14,6 +14,7 @@ Clone this repo and symlink the skill(s) you want into your Claude Code skills d
 
 ```bash
 git clone https://github.com/OmniJeff/claude-skills
+mkdir -p ~/.claude/skills
 ln -s /path/to/claude-skills/ascii-art ~/.claude/skills/ascii-art
 ```
 
